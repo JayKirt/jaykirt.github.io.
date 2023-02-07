@@ -45,3 +45,63 @@ Tribute page
         <h3>If you have time, you can read more about this talented man.<a href="https://www.wikipedia.org/wiki/Jack_Black" id="tribute-link" target="_blank">Wikipedia entry</a>.</h3>
     </footer>
   </main> 
+
+    
+    #main {
+  background-color: #EEEEEE;
+  margin: 30px 0;
+  font-family: sans-serif; 
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 150%;
+  padding-top: 50px;
+}
+
+#img-div {
+  background-color: white;
+  margin: 40px 20px;
+  padding: 20px 10px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+
+#tribute-info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  #tribute-info {
+    width: 90%;
+  }
+}
+
+#tribute-info :not(h3) {
+  text-align: left;
+}
+
+h3, ul {
+  margin-bottom: 40px;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+.disclaimer {
+  margin-top: 30px;
+}
+
+
+footer {
+  padding: 5px;
+  line-height: 1.5rem;
+}
